@@ -1,0 +1,6 @@
+.publication-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 28px; }
+.publication-tab { border: 1px solid var(--ink); border-radius: 99px; padding: 8px 13px; background: transparent; color: var(--ink); font: 600 .84rem "Noto Sans TC", sans-serif; cursor: pointer; }
+.publication-tab:hover, .publication-tab.is-active { color: #fff; background: var(--ink); }
+.publication-panel { margin-top: 17px; }
+.publication-panel[hidden] { display: none; }
+.patent-list article > span { color: var(--blue); }

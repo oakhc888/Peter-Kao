@@ -1,0 +1,21 @@
+.background { background: #f0ede3; max-width: none; padding-left: max(28px, calc((100vw - 1180px) / 2 + 28px)); padding-right: max(28px, calc((100vw - 1180px) / 2 + 28px)); }
+.background-grid { display: grid; grid-template-columns: .85fr 1.15fr; gap: 20px; }
+.education-panel, .career-panel { border-top: 3px solid var(--ink); }
+.career-panel { border-color: var(--orange); }
+.panel-title { font: 600 .7rem "Space Grotesk", sans-serif; letter-spacing: .14em; margin: 16px 0 7px; color: var(--blue); }
+.background article { display: grid; grid-template-columns: 92px 1fr; gap: 12px; padding: 16px 0; border-top: 1px solid var(--line); }
+.background time { font: 600 .88rem "Space Grotesk", sans-serif; color: var(--orange); }
+.background h3, .background p { margin: 0; }
+.background h3 { font-size: 1rem; }
+.background article p { font-size: .87rem; color: #526875; }
+.publications { padding-bottom: 100px; }
+.publication-intro { display: flex; align-items: baseline; gap: 9px; padding: 16px 0 28px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+.publication-intro strong { font: 700 1.8rem "Space Grotesk", sans-serif; color: var(--orange); margin-left: 20px; }
+.publication-intro strong:first-child { margin-left: 0; }
+.publication-intro span { font-size: .82rem; margin-right: 10px; }
+.publication-list article { display: grid; grid-template-columns: 73px 1fr; gap: 16px; padding: 20px 0; border-bottom: 1px solid var(--line); }
+.publication-list article > span { font: 600 .83rem "Space Grotesk", sans-serif; color: var(--orange); }
+.publication-list h3 { font-size: 1rem; line-height: 1.45; margin: 0 0 5px; }
+.publication-list p, .publication-note { color: #526875; font-size: .83rem; margin: 0; }
+.publication-note { margin-top: 16px; }
+@media (max-width: 760px) { .background { padding: 75px 20px; } .background-grid { grid-template-columns: 1fr; gap: 35px; } .publication-intro strong { margin-left: 9px; } .publication-list article { grid-template-columns: 55px 1fr; gap: 9px; } }
