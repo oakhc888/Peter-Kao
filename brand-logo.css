@@ -6,6 +6,8 @@
 
 .brand-image {
   display: block;
-  width: 131px;
-  height: auto;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  object-fit: cover;
 }
